@@ -36,7 +36,7 @@ session_start();
                   <input type="password" class="form-control" style="border-radius:0px" name="txt_password" placeholder="Enter Password">
                 </div>
                 <button type="submit" class="btn btn-sm btn-primary" name="btn_login">Log in</button>
-                <label id="error" class="label label-danger pull-right"></label> 
+                <label id="error" class="label label-danger pull-right"></label>
               </form>
             </div>
           </div>
@@ -46,7 +46,7 @@ session_start();
       <?php
         include "pages/connection.php";
         if(isset($_POST['btn_login']))
-        { 
+        {
             $username = $_POST['txt_username'];
             $password = $_POST['txt_password'];
 
@@ -66,7 +66,7 @@ session_start();
                   $_SESSION['role'] = "Administrator";
                   $_SESSION['userid'] = $row['id'];
                   $_SESSION['username'] = $row['username'];
-                }    
+                }
                 header ('location: pages/officials/officials.php');
             }
             elseif($numrow_zone > 0)
@@ -75,7 +75,7 @@ session_start();
                   $_SESSION['role'] = "Zone Leader";
                   $_SESSION['userid'] = $row['id'];
                   $_SESSION['username'] = $row['username'];
-                }    
+                }
                 header ('location: pages/permit/permit.php');
             }
             elseif($numrow_staff > 0)
@@ -85,17 +85,19 @@ session_start();
                   $_SESSION['staff'] = "Staff";
                   $_SESSION['userid'] = $row['id'];
                   $_SESSION['username'] = $row['username'];
-                }    
+                }
                 header ('location: pages/resident/resident.php');
             }
+
+        
             else
             {
               echo '<script type="text/javascript">document.getElementById("error").innerHTML = "Invalid Account";</script>';
-               
+
             }
-             
+
         }
-        
+
       ?>
 
     </body>
