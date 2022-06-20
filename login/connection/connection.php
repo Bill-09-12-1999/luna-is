@@ -3,7 +3,7 @@
 
 
 
- $con = mysqli_connect('localhost','root','','luna') or die(mysqli_error());
+ $con = mysqli_connect('remotemysql.com','7LwsksBaaS','Kq4pKA9wKF','7LwsksBaaS') or die(mysqli_error());
 
 
 
