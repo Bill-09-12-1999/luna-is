@@ -38,7 +38,7 @@
     session_start();
     if(!isset($_SESSION['role']))
     {
-        header("Location: ../../loginpage.php"); 
+        header("Location: ../../main1.home.php"); 
     }
     else
     {
@@ -48,7 +48,7 @@
         <!-- header logo: style can be found in header.less -->
         <?php 
         
-        include "../connection.php";
+        include "connection.php";
         ?>
         <?php include('../header.php'); ?>
 
