@@ -1,5 +1,5 @@
 
 <?php 
-$conn = new PDO('mysql:host=localhost; dbname=id18870513_luna','id18870513_burgos','6WdElkqIGnEK-aqF' ); 
+$conn = new PDO('mysql:host=remotemysql.com; dbname=7LwsksBaaS','7LwsksBaaS','Kq4pKA9wKF' ); 
 ?>
 
