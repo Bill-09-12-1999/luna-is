@@ -1,0 +1,143 @@
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4),rgba(0,0,0,0.7));
+  background-image:linear-gradient(30deg, #194F46,#9BC384);
+  width: 100%;
+
+  
+}
+.off_profiles
+{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  border: 2px solid #FBFCFC;
+ box-shadow: 1px 1px 10px 5px #194F46 inset, 1px 1px 15px 10px #194F46;
+ background-image: url(../assets/leaf-flora-black-and-white.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 50% 50%;
+ 
+}
+
+.border{
+  position:absolute;
+
+}
+.off_container{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.text{
+    position:relative;
+font-size: 60px;
+  line-height: 50px;
+  text-align: center;
+  padding: 10px 10px;
+  margin: 20px;
+  margin-left:50px;
+  width: 95%;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 500;
+  height: 50px;
+  color: #09170E;
+
+}
+.row{
+  width: 80%;
+  margin: auto;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items:center;
+  padding: 10px;
+ 
+overflow: hidden;
+}
+/*.row{*/
+/*  width: 80%;*/
+/*  margin: auto;*/
+/*  display:flex;*/
+/*  flex-direction: row;*/
+/*  flex-wrap: wrap;*/
+/*  justify-content: center;*/
+/*  justify-items:center;*/
+/*  padding: 10px;*/
+/*  background-image: url(../assets/leaf-flora-black-and-white.png);*/
+/*  background-position: center;*/
+/*  background-repeat: repeat;*/
+/*  background-size: 120% 90%;*/
+/*overflow: hidden;*/
+/*}*/
+ .profile_card{
+   background-image:linear-gradient(transparent,#2E5221,#09170E);
+   width:250px;
+   height: 300px;
+   margin:20px 10px 10px 10px;
+   border-radius: 10px;
+overflow: hidden;
+
+
+box-shadow: 0px 0px 10px 5px #A2CD8F;
+
+ }
+
+ .profile_content{
+   padding: 15px;
+ }
+
+
+ .img{
+   width: 150px;
+   height: 150px;
+   border-radius: 70px;
+   transition: .5s  ease;
+ }
+ .img:hover{
+   position: relative;
+   top: 0;
+      width:220px;
+   height: 250px;
+   pointer-events: mouse;
+   transition: .5s  ease;
+   border-radius: 10px;
+ }
+
+ .profile_image{
+   text-align: center;
+ }
+
+ .desc h2{
+   position: relative;
+   top: -10px;
+   font-size: 20px;
+   text-align: center;
+   font-weight:bolder;
+   color: #BE8C32     ;
+ }
+
+ .desc p{
+   text-align: center;
+   font-size: 13px;
+   line-height: 1.3em;
+   margin-top: -7px;
+   color: #BE8C32;
+   font-weight: bold;
+ }
+
+
+
+ .profile_card1{
+   background-color: transparent;
+   width:400px;
+   height: 300px;
+   margin:20px 10px 10px 10px;
+
+ }
+ 
+
